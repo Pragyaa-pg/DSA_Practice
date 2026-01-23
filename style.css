@@ -1,47 +1,6 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing: border-box;
-}
-body{
-    min-height: 100vh;
-        /* background: linear-gradient(to right,#82eafa,#c48aff);
-        background: linear-gradient(to bottom, #ff9a9e, #fad0c4); */
-        /* background: linear-gradient(380deg, #667eea 0%,#764ba2 50%, #a18cd1 100%); */
-            /* background: radial-gradient(circle at top right, #667eea, #764ba2); */
-       
-  background: linear-gradient(135deg, #667eea, #764ba2);
-
-
-
-}
-h2{ 
-    padding: 10px 20px;
-    display: flex;
-       flex-direction:column;
-    margin-bottom: 20px;
-    text-align: center;
-    font-weight: 500;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-h3{ 
-    display:flex;
-       flex-direction:column;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    text-align:left;
-    font-weight: 500;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-.practice_Div{
-
-    display: flex;
-       flex-direction:column;
-    padding-bottom: 20px;
-    height:60px;
-}
-.image{
-    display: flex;
-   flex-direction:column;
-   align-self: flex-end;
+div{
+    height:100px;
+    width: 100px;
+    background-color:burlywood;
+    border:1px solid;
 }
