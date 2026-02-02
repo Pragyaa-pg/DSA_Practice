@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class LongestPalindrome {
 
     public static String longestPalindrome(String s) {
@@ -21,23 +19,20 @@ public class LongestPalindrome {
     }
 
     private static int expandFromCenter(String s, int left, int right) {
-        while (left >= 0 && right < s.length()
-                && s.charAt(left) == s.charAt(right)) {
+        while (left >= 0 && right < s.length() &&
+               s.charAt(left) == s.charAt(right)) {
             left--;
             right++;
         }
         return right - left - 1;
     }
 
+    // 🔑 MAIN METHOD (needed for VS Code)
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        String s1 = "babad";
+        String s2 = "cbbd";
 
-        System.out.print("Enter string: ");
-        String s = sc.nextLine();
-
-        String result = longestPalindrome(s);
-        System.out.println("Longest Palindromic Substring: " + result);
-
-        sc.close();
+        System.out.println(longestPalindrome(s1)); // bab or aba
+        System.out.println(longestPalindrome(s2)); // bb
     }
 }
