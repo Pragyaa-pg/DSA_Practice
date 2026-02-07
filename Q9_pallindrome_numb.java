@@ -1,4 +1,4 @@
-class Solution {
+class Q9_pallindrome_numb {
     public boolean isPalindrome(int x) {
         if (x<0){
             return false;
