@@ -22,8 +22,5 @@ class Q1323 {
         return maximum69Number;
         
     }
-    public static void main(String[] args) {
-        Q1323 obj =new Q1323();
-        int num = 6699;
-    }
+    
 }
