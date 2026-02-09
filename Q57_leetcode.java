@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-class Q57{
+class Q57_leetcode{
     public int[][] insert(int[][] intervals, int[] newInterval) {
         List<int[]> result = new ArrayList<>();
 
